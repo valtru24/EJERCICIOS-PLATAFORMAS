@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Validación</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Rellena este formulario</h2>
+        <form id="form" onsubmit="return validateForm()" action="home.html" method="POST">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <label for="mensaje">Mensaje (máx. 30 caracteres):</label>
+            <input type="text" id="mensaje" name="mensaje" maxlength="30">
+            
+            <label for="password">Contraseña (mín. 6 caracteres):</label>
+            <input type="password" id="password" name="password">
+            
+            <label>
+                <input type="checkbox" id="terminos" onclick="numberInput()"> Acepto los términos y condiciones
+            </label>
+
+            <div id="numeroContainer" style="display: none;">
+                <label for="numero">Ingrese un número (30-50):</label>
+                <input type="number" id="numero" name="numero" min="30" max="50">
+            </div>
+
+            <button type="submit">Enviar</button>
+            <p id="error" class="error"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

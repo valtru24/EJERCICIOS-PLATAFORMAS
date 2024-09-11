@@ -1,0 +1,5 @@
+[
+    { "usuario": "admin", "contrasena": "admin123", "rol": "admin" },
+    { "usuario": "user", "contrasena": "1234", "rol": "usuario" },
+    { "usuario": "contentcreator", "contrasena": "content", "rol": "contentcreator" }
+]

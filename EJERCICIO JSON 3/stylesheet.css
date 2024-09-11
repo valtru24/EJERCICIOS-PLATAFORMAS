@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#formContainer {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff69b4;
+    font-size: 24px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ffb6c1;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff0f6;
+}
+
+input:focus {
+    border-color: #ff69b4;
+    outline: none;
+    background-color: #ffe6f0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff85c0;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.admin-container, .landing-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    color: #ff69b4;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

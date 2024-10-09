@@ -71,11 +71,23 @@
                 </div>
             </section>
             <br> <br> <br>
+    <div class="BuscaLetras">
+            <form action="" onsubmit="return cargaCancion(event);">
+                <label for="cancion">Ingresa el nombre de la canción</label>
+                <input type="text" id="cancion" name="cancion" placeholder="Cancion" required>
+                <button type="submit">Buscar</button>
+            </form>
+
+                <div class="letra" id="letra">
+                </div>
+
+    </div>
     </main>
 
     <footer-component></footer-component>
 
     <script src="header-component.js"></script>
     <script src="footer-component.js"></script>
+    <script src="lyrics.js"></script>
 </body>
 </html>

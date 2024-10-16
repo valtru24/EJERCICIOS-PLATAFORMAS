@@ -12,6 +12,11 @@ class HeaderComponent extends HTMLElement {
                     <li><a href="#bio">Contacto</a></li>
                 </ul>
             </nav>
+        <label id="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    
         </header>`;
     }
 }
